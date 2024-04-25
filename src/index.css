@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.green__gradient {
+  background: linear-gradient(140deg, #1d7f21, #2bb32a);
+  filter: blur(150px);
+}

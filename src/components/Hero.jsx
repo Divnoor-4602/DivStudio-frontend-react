@@ -9,19 +9,19 @@ const Hero = () => {
   return (
     <>
       {/* hero container */}
-      <div className="flex">
-        <div className="flex flex-col gap-8 items-start w-1/2">
+      <div className="flex md:flex-row flex-col  gap-10 md:gap-0">
+        <div className="flex flex-col gap-8 md:items-start md:w-1/2 items-center">
           {/* main text */}
-          <div className="text-white font-bold text-[56px] leading-[64px]">
+          <div className="text-white font-bold text-4xl md:text-[56px] md:leading-[64px] text-center md:text-start">
             Discover the Perfect
-            <br />
-            Credit Card for You
+            <br className="hidden xl:block " /> Credit Card for You
           </div>
           {/* sub text */}
-          <div className="opacity-60 text-white text-[18px] leading-[24px] font-light">
+          <div className="opacity-60 text-white text-[18px] leading-[24px] font-light text-center md:text-start">
             Discover the power of our secure and rewarding credit cards.
-            <br /> Explore our range of credit cards and take control
-            <br /> of your finances today.
+            <br className="hidden xl:block" /> Explore our range of credit cards
+            and take control
+            <br className="hidden xl:block" /> of your finances today.
           </div>
           {/* get started button variant fill */}
           <Button text={"Get Started"} icon={arrow} />
@@ -38,11 +38,11 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="w-1/2">
+        <div className="flex justify-center md:justify-end md:w-1/2">
           <img
             src={cardImage}
             alt="credit card"
-            className="w-[700px] h-[500px]"
+            className="w-[400px] h-[300px] md:w-[700px] md:h-[500px]"
           />
         </div>
       </div>

@@ -68,7 +68,7 @@ const Sidebar = () => {
       <AnimatePresence>
         {open && (
           <motion.div
-            className="fixed top-0 left-0 w-full h-screen origin-top bg-secondary text-primary"
+            className="fixed top-0 left-0 w-full h-screen origin-top bg-secondary text-primary z-10"
             variants={menuVariants}
             initial="initial"
             animate="animate"

@@ -88,3 +88,79 @@ export const features = [
     description: "Your data and funds will be securely protected.",
   },
 ];
+
+export const testimonials = [
+  {
+    quote:
+      "Great session! Dani was super helpful. She shared some practical advice on how can lorem ip we go about refining our service offerings.",
+    name: "Charles Dickens",
+    title: "A Tale of Two Cities",
+    occupation: "Novelist",
+    icon: pfp1,
+  },
+  {
+    quote:
+      "Great session! Dani was super helpful. She shared some practical advice on how can lorem ip we go about refining our service offerings.",
+    name: "William Shakespeare",
+    title: "Hamlet",
+    occupation: "Playwright",
+    icon: pfp2,
+  },
+  {
+    quote:
+      "Great session! Dani was super helpful. She shared some practical advice on how can lorem ip we go about refining our service offerings.",
+    name: "Edgar Allan Poe",
+    title: "A Dream Within a Dream",
+    occupation: "Poet",
+    icon: pfp3,
+  },
+  {
+    quote:
+      "Great session! Dani was super helpful. She shared some practical advice on how can lorem ip we go about refining our service offerings.",
+    name: "Jane Austen",
+    title: "Pride and Prejudice",
+    occupation: "Novelist",
+    icon: pfp1,
+  },
+  {
+    quote:
+      "Great session! Dani was super helpful. She shared some practical advice on how can lorem ip we go about refining our service offerings.",
+    name: "Herman Melville",
+    title: "Moby-Dick",
+    occupation: "UX/UI Designer",
+    icon: pfp1,
+  },
+];
+
+export const faqs = [
+  {
+    question: "What credit score do I need to apply for a credit card?",
+    answer:
+      "The required credit score may vary depending on the specific credit card. Generally, a good to excellent credit score (typically 670 or above) increases your chances of approval for premium credit cards.",
+  },
+  {
+    question: " How can I apply for a credit card online?",
+    answer:
+      "The required credit score may vary depending on the specific credit card. Generally, a good to excellent credit score (typically 670 or above) increases your chances of approval for premium credit cards.",
+  },
+  {
+    question: "Are there any annual fees associated with the credit card?",
+    answer:
+      "The required credit score may vary depending on the specific credit card. Generally, a good to excellent credit score (typically 670 or above) increases your chances of approval for premium credit cards.",
+  },
+  {
+    question: "How long does it take to receive the credit card once approved?",
+    answer:
+      "The required credit score may vary depending on the specific credit card. Generally, a good to excellent credit score (typically 670 or above) increases your chances of approval for premium credit cards.",
+  },
+  {
+    question: "How can I check my credit card balance and transactions?",
+    answer:
+      "The required credit score may vary depending on the specific credit card. Generally, a good to excellent credit score (typically 670 or above) increases your chances of approval for premium credit cards.",
+  },
+  {
+    question: " What should I do if my credit card is lost or stolen?",
+    answer:
+      "The required credit score may vary depending on the specific credit card. Generally, a good to excellent credit score (typically 670 or above) increases your chances of approval for premium credit cards.",
+  },
+];

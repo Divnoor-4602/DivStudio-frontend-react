@@ -8,6 +8,7 @@ import FindCreditCard from "./FindCreditCard";
 import Footer from "./Footer";
 import Hero from "./Hero";
 import Navbar from "./Navbar";
+import Testimonials from "./Testimonials";
 
 export {
   About,
@@ -20,4 +21,5 @@ export {
   Footer,
   Hero,
   Navbar,
+  Testimonials,
 };

@@ -77,7 +77,7 @@ const App = () => {
       <img
         src={doraWrap}
         alt="dora"
-        className="absolute top-0 overflow-hidden right-0 z-0 w-11/12 pointer-events-none h-auto md:block hidden blur-[2px]"
+        className="absolute top-0 overflow-hidden right-0 z-0 w-5/6 pointer-events-none h-auto md:block hidden blur-[2px]"
       />
     </>
   );

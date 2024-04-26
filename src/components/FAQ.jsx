@@ -30,7 +30,7 @@ const FAQ = () => {
             );
           })}
         </Accordion>
-        <div className="w-[400px] h-[800px] absolute green__gradient top-0 -left-[300px]  pointer-events-none "></div>
+        <div className="w-[400px] h-[600px] absolute green__gradient top-0 -left-[300px]  pointer-events-none "></div>
       </div>
     </>
   );

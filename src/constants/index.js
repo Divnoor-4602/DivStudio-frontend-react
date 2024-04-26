@@ -164,3 +164,41 @@ export const faqs = [
       "The required credit score may vary depending on the specific credit card. Generally, a good to excellent credit score (typically 670 or above) increases your chances of approval for premium credit cards.",
   },
 ];
+
+export const footerLinks = [
+  {
+    title: "About us",
+    links: [
+      { name: "Investors", link: "/" },
+      { name: "Features", link: "/" },
+      { name: "Book a demo", link: "/" },
+      { name: "Security", link: "/" },
+    ],
+  },
+  {
+    title: "Products",
+    links: [
+      { name: "Credit Cards", link: "/" },
+      { name: "Gift Cards", link: "/" },
+      { name: "Savings accounts", link: "/" },
+      { name: "NFT", link: "/" },
+    ],
+  },
+  {
+    title: "Useful Links",
+    links: [
+      { name: "Free rewards", link: "/" },
+      { name: "Documentation", link: "/" },
+      { name: "Affiliate program", link: "/" },
+    ],
+  },
+  {
+    title: "Social",
+    links: [
+      { name: "Changelog", link: "/" },
+      { name: "Features", link: "/" },
+      { name: "Book a demo", link: "/" },
+      { name: "Security", link: "/" },
+    ],
+  },
+];

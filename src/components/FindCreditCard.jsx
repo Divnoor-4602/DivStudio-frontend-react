@@ -38,7 +38,7 @@ const FindCreditCard = () => {
           <Button text={"Learn More"} />
         </div>
 
-        <div className="w-[300px] h-[400px] absolute green__gradient -top-10 -right-[300px] pointer-events-none"></div>
+        <div className="w-[300px] h-[400px] absolute green__gradient -top-10 right-0 pointer-events-none"></div>
       </div>
     </>
   );

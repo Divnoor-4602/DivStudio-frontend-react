@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 const DesignCreditCard = () => {
   return (
     <>
-      <div className="flex md:flex-row flex-col items-center gap-10 md:gap-20 relative">
+      <div className="flex md:flex-row flex-col items-center gap-10 md:gap-20 relative ">
         <div className="flex flex-col md:w-1/2 gap-6 items-center md:items-start">
           <div className="text-3xl md:text-[40px] text-center md:text-start text-white font-bold md:leading-[50px]">
             Design your personalized credit card.
@@ -34,7 +34,7 @@ const DesignCreditCard = () => {
             }}
           />
         </div>
-        <div className="w-[300px] h-[400px] absolute green__gradient -top-10 -right-[300px] pointer-events-none"></div>
+        <div className="w-[300px] h-[400px] absolute green__gradient -top-10 right-0 pointer-events-none"></div>
       </div>
     </>
   );

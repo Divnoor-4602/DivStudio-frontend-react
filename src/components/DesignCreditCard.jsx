@@ -18,7 +18,7 @@ const DesignCreditCard = () => {
           </div>
           <Button text={"Create new Card"} icon={rightArrow} />
         </div>
-        <div className="w-1/2">
+        <div className="w-1/2 flex flex-row-reverse">
           <motion.img
             src={stackedCards}
             alt="stacked card"
@@ -26,6 +26,7 @@ const DesignCreditCard = () => {
             animate={{
               y: 25,
             }}
+            className=""
             transition={{
               duration: 0.8,
               repeat: Infinity,

@@ -18,7 +18,8 @@ const App = () => {
   return (
     <>
       {/* global container */}
-      <div className="min-h-screen bg-primary  ">
+
+      <div className="min-h-screen bg-primary relative overflow-hidden">
         {/* navbar */}
         <div className="px-6 md:px-16 lg:px-28 py-8 font-MPlus z-10">
           <Navbar />
@@ -73,12 +74,12 @@ const App = () => {
         <div className=" font-MPlus z-10">
           <Footer />
         </div>
+        <img
+          src={doraWrap}
+          alt="dora"
+          className="absolute top-0  right-0 z-0  pointer-events-none h-auto md:block hidden blur-[2px]"
+        />
       </div>
-      <img
-        src={doraWrap}
-        alt="dora"
-        className="absolute top-0 overflow-hidden right-0 z-0 w-5/6 pointer-events-none h-auto md:block hidden blur-[2px]"
-      />
     </>
   );
 };
